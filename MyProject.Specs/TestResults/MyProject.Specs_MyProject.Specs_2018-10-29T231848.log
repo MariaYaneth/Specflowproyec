@@ -1,0 +1,64 @@
+﻿2018-10-29T23:18:47.2797581-05:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-10-29T23:18:47.2847567-05:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2018-10-29T23:18:47.2847567-05:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\Maria Borja\Desktop\Specflowproyec\MyProject.Specs\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2018-10-29T23:18:48.3450337-05:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-10-29T23:18:48.3450337-05:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Maria Borja\Desktop\Specflowproyec\MyProject.Specs\bin\Debug\MyProject.Specs.dll
+2018-10-29T23:18:48.3450337-05:00;VSTestExecutionThread;Info;Profile: MyProject.Specs
+2018-10-29T23:19:01.5214877-05:00;Thread#15;Info;starting test run
+2018-10-29T23:19:01.5423481-05:00;Thread#15;Info;Discovering target: Default
+2018-10-29T23:19:01.5443479-05:00;Thread#15;Info;Discovering tests from assembly: C:\Users\Maria Borja\Desktop\Specflowproyec\MyProject.Specs\bin\Debug\MyProject.Specs.dll
+Appdomain Disposed
+Test Suite Dump
+#0: MyProject.Specs/MyProject.Specs - 
+#1: Default - 
+#2: MyProject.Specs - 
+#3: SpecFlowFeature1 - 
+#4: Add two numbers - TestAssembly:MyProject.Specs/Feature:SpecFlowFeature1/Scenario:Add+two+numbers
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for MyProject.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I have entered 50 into the calculator
+Thread#0:T:pending: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(50)
+Thread#0:B:And I have also 70 into the calculator
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I press add
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then the result should be 120 on the screen
+Thread#0:T:skipped because of previous errors
+Thread#0:T:Pending: One or more step definitions are not implemented yet.
+Thread#0:T:  CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(50)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/0 is finished on thread #0 as Pending within 1,1964196 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2018-10-29T23:19:03.1448749-05:00;Thread#15;Info;test run finished
+2018-10-29T23:19:03.1458719-05:00;Thread#15;Info;publishing test results
+2018-10-29T23:19:03.2028816-05:00;Thread#15;Info;test results published
+2018-10-29T23:19:03.2028816-05:00;Thread#15;Info;generating reports
+2018-10-29T23:19:03.2158858-05:00;Thread#15;Info;creating 1 report(s)
+2018-10-29T23:19:03.2168862-05:00;Thread#15;Info;generate Report ReportTemplate.cshtml
+2018-10-29T23:19:06.2957264-05:00;Thread#15;Info;reports generated
+Total: 1
+Succeeded: 0
+Ignored: 0
+Pending: 1
+Skipped: 0
+Failed: 0
+2018-10-29T23:19:06.3057292-05:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2018-10-29T23:19:06.3067300-05:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\Maria Borja\Desktop\Specflowproyec\MyProject.Specs\TestResults\MyProject.Specs_MyProject.Specs_2018-10-29T231848.html'
+2018-10-29T23:19:06.3177317-05:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\Maria%20Borja\Desktop\Specflowproyec\MyProject.Specs\TestResults\MyProject.Specs_MyProject.Specs_2018-10-29T231848.log
