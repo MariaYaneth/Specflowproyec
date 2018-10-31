@@ -20,6 +20,7 @@ namespace MyProject.Specs
             var result = calculator.Retur_resta(7, 6);
             Assert.AreEqual(1, result);
         }
+        [TestMethod]
         public void PruebaMultiplicar()
         {
             var calculator = new CalculatorSteps();
