@@ -53,5 +53,11 @@ namespace MyProject.Specs
             result = calculator.multiplicar(A, B);
             return result;
         }
+        [Then(@"the result de la division")]
+        public int Retur_dividir(int A, int B)
+        {
+            result = calculator.dividir(A, B);
+            return result;
+        }
     }
 }

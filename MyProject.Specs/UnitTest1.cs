@@ -27,5 +27,12 @@ namespace MyProject.Specs
             var result = calculator.Retur_multiplicar(7, 6);
             Assert.AreEqual(42, result);
         }
+        [TestMethod]
+        public void PruebaDividir()
+        {
+            var calculator = new CalculatorSteps();
+            var result = calculator.Retur_dividir(12, 6);
+            Assert.AreEqual(2, result);
+        }
     }
 }
